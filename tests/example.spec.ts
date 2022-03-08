@@ -12,7 +12,7 @@ test('selectors', async ({ page }) => {
   await page.locator('css=button.primary').click();
 
   /** Text Selector */
-  await page.locator('text=Submit').click();
+  await page.locator('text=submit').click();
 
   /** Chain Selectors */
   await page.locator('button >> text=Submit').click();
